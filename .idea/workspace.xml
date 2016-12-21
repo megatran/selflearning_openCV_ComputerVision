@@ -15,6 +15,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$011_color_spaces.coverage" NAME="011-color_spaces Coverage Results" MODIFIED="1482222781347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$011_color_spaces_color_filtering.coverage" NAME="011-color_spaces_color_filtering Coverage Results" MODIFIED="1482222787581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$015_translation.coverage" NAME="015-translation Coverage Results" MODIFIED="1482300779336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$017_scaling_resizing_interpolations.coverage" NAME="017-scaling-resizing-interpolations Coverage Results" MODIFIED="1482302297717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$016_rotations.coverage" NAME="016-rotations Coverage Results" MODIFIED="1482301443183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$first_test.coverage" NAME="first_test Coverage Results" MODIFIED="1482300725093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
   </component>
@@ -48,11 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="016-rotations.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="016-rotations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-image-manipulation/016-rotations.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="017-scaling-resizing-interpolations.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-image-manipulation/017-scaling-resizing-interpolations.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -79,6 +92,7 @@
         <option value="$PROJECT_DIR$/02-basic-openCV-and-computerVision/first_test.py" />
         <option value="$PROJECT_DIR$/03-image-manipulation/015-translation.py" />
         <option value="$PROJECT_DIR$/03-image-manipulation/016-rotations.py" />
+        <option value="$PROJECT_DIR$/03-image-manipulation/017-scaling-resizing-interpolations.py" />
       </list>
     </option>
   </component>
@@ -159,25 +173,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.016-rotations">
-    <configuration default="false" name="011-color_spaces_color_filtering" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02-basic-openCV-and-computerVision/011-color_spaces_color_filtering.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.017-scaling-resizing-interpolations">
     <configuration default="false" name="012_histogram" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,6 +242,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/016-rotations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="017-scaling-resizing-interpolations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-image-manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/017-scaling-resizing-interpolations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -459,19 +473,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.011-color_spaces_color_filtering" />
-      <item index="1" class="java.lang.String" itemvalue="Python.012_histogram" />
-      <item index="2" class="java.lang.String" itemvalue="Python.first_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.015-translation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.016-rotations" />
+      <item index="0" class="java.lang.String" itemvalue="Python.012_histogram" />
+      <item index="1" class="java.lang.String" itemvalue="Python.first_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.015-translation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.016-rotations" />
+      <item index="4" class="java.lang.String" itemvalue="Python.017-scaling-resizing-interpolations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.016-rotations" />
-        <item index="1" class="java.lang.String" itemvalue="Python.015-translation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.first_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.012_histogram" />
-        <item index="4" class="java.lang.String" itemvalue="Python.011-color_spaces_color_filtering" />
+        <item index="0" class="java.lang.String" itemvalue="Python.017-scaling-resizing-interpolations" />
+        <item index="1" class="java.lang.String" itemvalue="Python.016-rotations" />
+        <item index="2" class="java.lang.String" itemvalue="Python.015-translation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.first_test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.012_histogram" />
       </list>
     </recent_temporary>
   </component>
@@ -595,8 +609,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-image-manipulation/016-rotations.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-image-manipulation/017-scaling-resizing-interpolations.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
