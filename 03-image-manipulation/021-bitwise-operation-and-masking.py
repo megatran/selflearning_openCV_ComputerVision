@@ -19,4 +19,30 @@ cv2.ellipse(ellipse, (150,150), (150, 150), 30, 0, 180, 255, -1)
 cv2.imshow("Ellipse", ellipse)
 cv2.waitKey(0)
 
+
+
+#square and ellipse have to be in the same dimensions
+
+#show only where they intersect (AND)
+bitwise_and = cv2.bitwise_and(square, ellipse)
+cv2.imshow("AND", bitwise_and)
+cv2.waitKey(0)
+
+#show where either square or ellilpse is
+bitwise_or = cv2.bitwise_or(square, ellipse)
+cv2.imshow("OR", bitwise_or)
+cv2.waitKey(0)
+
+#show where either exists by itself
+bitwise_xor = cv2.bitwise_xor(square, ellipse)
+cv2.imshow("XOR", bitwise_xor)
+cv2.waitKey(0)
+
+#show everything that isn't part of the square
+bitwise_not_sq = cv2.bitwise_not(square)
+cv2.imshow("NOT - square", bitwise_not_sq )
+cv2.waitKey(0)
+
+#last operation inverts the image totally
+
 cv2.destroyAllWindows()
