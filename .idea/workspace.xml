@@ -11,6 +11,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/self_learning_openCV$010_grayscale.coverage" NAME="010_grayscale Coverage Results" MODIFIED="1482222703008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$020_bitwise_operation_and_masking.coverage" NAME="020-bitwise-operation-and-masking Coverage Results" MODIFIED="1482369347824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$012_histogram.coverage" NAME="012_histogram Coverage Results" MODIFIED="1482222807670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$011_color_spaces.coverage" NAME="011-color_spaces Coverage Results" MODIFIED="1482222781347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$011_color_spaces_color_filtering.coverage" NAME="011-color_spaces_color_filtering Coverage Results" MODIFIED="1482222787581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
@@ -18,7 +19,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$019_cropping.coverage" NAME="019-cropping Coverage Results" MODIFIED="1482303345158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$017_scaling_resizing_interpolations.coverage" NAME="017-scaling-resizing-interpolations Coverage Results" MODIFIED="1482302297717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$016_rotations.coverage" NAME="016-rotations Coverage Results" MODIFIED="1482301443183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
-    <SUITE FILE_PATH="coverage/self_learning_openCV$020_arithmetic_operation.coverage" NAME="020-arithmetic_operation Coverage Results" MODIFIED="1482368548781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$020_arithmetic_operation.coverage" NAME="020-arithmetic_operation Coverage Results" MODIFIED="1482368698075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$first_test.coverage" NAME="first_test Coverage Results" MODIFIED="1482300725093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$018_image_pyramid.coverage" NAME="018-image-pyramid Coverage Results" MODIFIED="1482302642653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
   </component>
@@ -40,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="020-arithmetic_operation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="020-arithmetic_operation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-image-manipulation/020-arithmetic_operation.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="021-bitwise-operation-and-masking.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-image-manipulation/021-bitwise-operation-and-masking.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -75,6 +88,7 @@
         <option value="$PROJECT_DIR$/03-image-manipulation/018-image-pyramid.py" />
         <option value="$PROJECT_DIR$/03-image-manipulation/019-cropping.py" />
         <option value="$PROJECT_DIR$/03-image-manipulation/020-arithmetic_operation.py" />
+        <option value="$PROJECT_DIR$/03-image-manipulation/020-bitwise-operation-and-masking.py" />
       </list>
     </option>
   </component>
@@ -155,25 +169,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.020-arithmetic_operation">
-    <configuration default="false" name="016-rotations" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-image-manipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/016-rotations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.020-bitwise-operation-and-masking">
     <configuration default="false" name="017-scaling-resizing-interpolations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,6 +238,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/020-arithmetic_operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="020-bitwise-operation-and-masking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-image-manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/021-bitwise-operation-and-masking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -455,19 +469,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.016-rotations" />
-      <item index="1" class="java.lang.String" itemvalue="Python.017-scaling-resizing-interpolations" />
-      <item index="2" class="java.lang.String" itemvalue="Python.018-image-pyramid" />
-      <item index="3" class="java.lang.String" itemvalue="Python.019-cropping" />
-      <item index="4" class="java.lang.String" itemvalue="Python.020-arithmetic_operation" />
+      <item index="0" class="java.lang.String" itemvalue="Python.017-scaling-resizing-interpolations" />
+      <item index="1" class="java.lang.String" itemvalue="Python.018-image-pyramid" />
+      <item index="2" class="java.lang.String" itemvalue="Python.019-cropping" />
+      <item index="3" class="java.lang.String" itemvalue="Python.020-arithmetic_operation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.020-bitwise-operation-and-masking" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.020-arithmetic_operation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.019-cropping" />
-        <item index="2" class="java.lang.String" itemvalue="Python.018-image-pyramid" />
-        <item index="3" class="java.lang.String" itemvalue="Python.017-scaling-resizing-interpolations" />
-        <item index="4" class="java.lang.String" itemvalue="Python.016-rotations" />
+        <item index="0" class="java.lang.String" itemvalue="Python.020-bitwise-operation-and-masking" />
+        <item index="1" class="java.lang.String" itemvalue="Python.020-arithmetic_operation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.019-cropping" />
+        <item index="3" class="java.lang.String" itemvalue="Python.018-image-pyramid" />
+        <item index="4" class="java.lang.String" itemvalue="Python.017-scaling-resizing-interpolations" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +508,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -629,8 +643,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-image-manipulation/020-arithmetic_operation.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-image-manipulation/021-bitwise-operation-and-masking.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

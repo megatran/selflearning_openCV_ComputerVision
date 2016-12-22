@@ -10,6 +10,7 @@ image = cv2.imread(source_input)
 
 M = np.ones(image.shape, dtype="uint8") * 75
 
+
 #Add this and matrix M
 added = cv2.add(image, M)
 cv2.imshow("Added", added)
