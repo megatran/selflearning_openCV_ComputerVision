@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+#in cv2.adaptiveThrshold(), block sizes must be odd numbers!
+
 source_input = "/Users/nhant/Google Drive/OnlineLearning/selflearning_CV_with_Python/practice_sources/images/Origin_of_Species.jpg"
 
 image = cv2.imread(source_input, 0)
