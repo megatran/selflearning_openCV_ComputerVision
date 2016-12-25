@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$010_grayscale.coverage" NAME="010_grayscale Coverage Results" MODIFIED="1482222703008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$020_bitwise_operation_and_masking.coverage" NAME="020-bitwise-operation-and-masking Coverage Results" MODIFIED="1482370619853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_threstholding_binarization.coverage" NAME="024-threstholding_binarization Coverage Results" MODIFIED="1482439776084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$026_edge_detection_image_gradients.coverage" NAME="026-edge_detection_image_gradients Coverage Results" MODIFIED="1482643281072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$015_translation.coverage" NAME="015-translation Coverage Results" MODIFIED="1482300779336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$019_cropping.coverage" NAME="019-cropping Coverage Results" MODIFIED="1482303345158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$016_rotations.coverage" NAME="016-rotations Coverage Results" MODIFIED="1482301443183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
@@ -72,13 +73,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="025_dilation_erosion_opening_closing.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="025_dilation_erosion_opening_closing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-image-manipulation/025_dilation_erosion_opening_closing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="e#212#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="026-edge_detection_image_gradients.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-image-manipulation/026-edge_detection_image_gradients.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +130,7 @@
         <option value="$PROJECT_DIR$/03-image-manipulation/024-threstholding_binarization.py" />
         <option value="$PROJECT_DIR$/03-image-manipulation/024-adaptive_thresholding.py" />
         <option value="$PROJECT_DIR$/03-image-manipulation/025_dilation_erosion_opening_closing.py" />
+        <option value="$PROJECT_DIR$/03-image-manipulation/026-edge_detection_image_gradients.py" />
       </list>
     </option>
   </component>
@@ -197,25 +211,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.025_dilation_erosion_opening_closing">
-    <configuration default="false" name="022-image_denoising" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-image-manipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/022-image_denoising.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.026-edge_detection_image_gradients">
     <configuration default="false" name="023-sharpening" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,6 +280,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/025_dilation_erosion_opening_closing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="026-edge_detection_image_gradients" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-image-manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-image-manipulation/026-edge_detection_image_gradients.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -497,19 +511,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.022-image_denoising" />
-      <item index="1" class="java.lang.String" itemvalue="Python.023-sharpening" />
-      <item index="2" class="java.lang.String" itemvalue="Python.024-threstholding_binarization" />
-      <item index="3" class="java.lang.String" itemvalue="Python.024-adaptive_thresholding" />
-      <item index="4" class="java.lang.String" itemvalue="Python.025_dilation_erosion_opening_closing" />
+      <item index="0" class="java.lang.String" itemvalue="Python.023-sharpening" />
+      <item index="1" class="java.lang.String" itemvalue="Python.024-threstholding_binarization" />
+      <item index="2" class="java.lang.String" itemvalue="Python.024-adaptive_thresholding" />
+      <item index="3" class="java.lang.String" itemvalue="Python.025_dilation_erosion_opening_closing" />
+      <item index="4" class="java.lang.String" itemvalue="Python.026-edge_detection_image_gradients" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.025_dilation_erosion_opening_closing" />
-        <item index="1" class="java.lang.String" itemvalue="Python.024-adaptive_thresholding" />
-        <item index="2" class="java.lang.String" itemvalue="Python.024-threstholding_binarization" />
-        <item index="3" class="java.lang.String" itemvalue="Python.023-sharpening" />
-        <item index="4" class="java.lang.String" itemvalue="Python.022-image_denoising" />
+        <item index="0" class="java.lang.String" itemvalue="Python.026-edge_detection_image_gradients" />
+        <item index="1" class="java.lang.String" itemvalue="Python.025_dilation_erosion_opening_closing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.024-adaptive_thresholding" />
+        <item index="3" class="java.lang.String" itemvalue="Python.024-threstholding_binarization" />
+        <item index="4" class="java.lang.String" itemvalue="Python.023-sharpening" />
       </list>
     </recent_temporary>
   </component>
@@ -751,10 +765,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-image-manipulation/025_dilation_erosion_opening_closing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="23" lean-forward="false" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="35" />
           <folding>
             <element signature="e#212#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-image-manipulation/026-edge_detection_image_gradients.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
