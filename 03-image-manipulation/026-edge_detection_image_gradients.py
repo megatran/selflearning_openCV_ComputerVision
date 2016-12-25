@@ -7,7 +7,7 @@ image = cv2.imread(source_input, 0)
 
 height, width = image.shape
 
-#extract sobel edge
+#extract sobel edges (horizontal and vertical, ksize is kernel size)
 
 sobel_x = cv2.Sobel(image, cv2.CV_64F, 0, 1, ksize=5)
 sobel_y = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=5)
