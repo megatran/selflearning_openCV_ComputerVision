@@ -20,7 +20,7 @@ cv2.waitKey(0)
 blank_image = np.zeros((image.shape[0], image.shape[1], 3))
 
 #Create a copy of our original image
-original_image = image
+original_image = image.copy()
 
 #greyscale our image
 grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

@@ -3,13 +3,20 @@ import numpy as np
 
 
 #Funcs for sorting by position
+
+"""
+Image moments help you to calculate some features like center of mass of the object, area of the object etc
+From this moments, you can extract useful data like area, centroid etc.
+Centroid is given by the relations, Cx=M10/M00 and Cy=M01/M00.
+"""
+
 def x_cord_contour(contours):
     #return the x coordinate for the contour centroid
     if cv2.contourArea(contours) > 10:
         M = cv2.moments(contours)
         return (int(M['m10']/M['m00']))
 
-def label_contour_center(image, c, i):
+def label_contour_center(image, c):
     #Places a red circle on the centers of contours
     M = cv2.moments(c)
     cx = int(M['m10'] / M['m00'])
@@ -27,7 +34,7 @@ image = cv2.imread(source_input)
 blank_image = np.zeros((image.shape[0], image.shape[1], 3))
 
 #Create a copy of our original image
-original_image = image
+original_image = image.copy()
 
 #greyscale our image
 grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -42,7 +49,7 @@ _, contours, hierachy = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL, cv2.CH
 
 #Compute Center of Mass or centroids and draw them on image
 for (i, c) in enumerate(contours):
-    orig = label_contour_center(image, c, i)
+    orig = label_contour_center(image, c)
 
 cv2.imshow("Contour Center", image)
 cv2.waitKey(0)
@@ -59,6 +66,7 @@ for (i, c) in enumerate(contours_left_to_right):
     cv2.putText(original_image, str(i+1), (cx, cy), cv2.FONT_HERSHEY_COMPLEX, 1, (0,255,0), 2)
     cv2.imshow('Left to Right Contour', original_image)
     cv2.waitKey(0)
+    #crop contour. Extract 4 points (starting points x, y) and (w, h) boundaries
     (x, y, w, h) = cv2.boundingRect(c)
 
     #Crop each contour and save these images

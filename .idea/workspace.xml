@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5cc1b3-cdf1-421f-ba23-6712732407f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_1.jpg" afterPath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_2.jpg" afterPath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_3.jpg" afterPath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_4.jpg" afterPath="$PROJECT_DIR$/04-Image-segmentation/output_shape_number_4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py" afterPath="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py" afterPath="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +25,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$027_affine_transform.coverage" NAME="027_affine_transform Coverage Results" MODIFIED="1482644509468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$022_image_denoising.coverage" NAME="022-image_denoising Coverage Results" MODIFIED="1482391922028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$027_getting_perspective_transform.coverage" NAME="027-getting_perspective_transform Coverage Results" MODIFIED="1482644141016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
-    <SUITE FILE_PATH="coverage/self_learning_openCV$030_sorting_contour_left_right.coverage" NAME="030-sorting_contour_left_right Coverage Results" MODIFIED="1482801193775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$030_sorting_contour_left_right.coverage" NAME="030-sorting_contour_left_right Coverage Results" MODIFIED="1482801945855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$015_translation.coverage" NAME="015-translation Coverage Results" MODIFIED="1482300779336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$019_cropping.coverage" NAME="019-cropping Coverage Results" MODIFIED="1482303345158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$016_rotations.coverage" NAME="016-rotations Coverage Results" MODIFIED="1482301443183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
@@ -61,8 +66,8 @@
       <file leaf-file-name="030-sorting_contours.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="33" selection-end-column="96" />
+            <state relative-caret-position="165">
+              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -73,8 +78,8 @@
       <file leaf-file-name="030-sorting_contour_left_right.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -94,6 +99,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>destroy</find>
+      <find>orig</find>
+      <find>label_con</find>
       <find>des</find>
     </findStrings>
   </component>
@@ -130,8 +137,8 @@
         <option value="$PROJECT_DIR$/00-projects/live_sketch_using_webcam.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/04-Image-segmentation/029-segmentation_contour.py" />
-        <option value="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py" />
         <option value="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py" />
+        <option value="$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py" />
       </list>
     </option>
   </component>
@@ -810,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="33" selection-end-column="96" />
+        <state relative-caret-position="165">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -820,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="105">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
