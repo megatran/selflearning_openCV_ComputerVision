@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5cc1b3-cdf1-421f-ba23-6712732407f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py" afterPath="$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,9 +42,10 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$020_bitwise_operation_and_masking.coverage" NAME="020-bitwise-operation-and-masking Coverage Results" MODIFIED="1482370619853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_threstholding_binarization.coverage" NAME="024-threstholding_binarization Coverage Results" MODIFIED="1482439776084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$026_edge_detection_image_gradients.coverage" NAME="026-edge_detection_image_gradients Coverage Results" MODIFIED="1482643281072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
-    <SUITE FILE_PATH="coverage/self_learning_openCV$034_line_detection.coverage" NAME="034-line_detection Coverage Results" MODIFIED="1482908189255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$034_line_detection.coverage" NAME="034-line_detection Coverage Results" MODIFIED="1482909846332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$first_test.coverage" NAME="first_test Coverage Results" MODIFIED="1482300725093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_adaptive_thresholding.coverage" NAME="024-adaptive_thresholding Coverage Results" MODIFIED="1482564089251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$034_probablistic_hough_lines.coverage" NAME="034-probablistic_hough_lines Coverage Results" MODIFIED="1482910185809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,13 +53,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="034-line_detection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="034-line_detection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="e#157#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="034-probablistic_hough_lines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +135,7 @@
         <option value="$PROJECT_DIR$/04-Image-segmentation/032-matching_contour_shape.py" />
         <option value="$PROJECT_DIR$/00-projects/identifying_shapes.py" />
         <option value="$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py" />
+        <option value="$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py" />
       </list>
     </option>
   </component>
@@ -229,25 +244,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.034-line_detection">
-    <configuration default="false" name="031-Approximate_contours" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04-Image-segmentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Image-segmentation/031-Approximate_contours.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.034-probablistic_hough_lines">
     <configuration default="false" name="031-finding_convex_hull" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +313,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="034-probablistic_hough_lines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04-Image-segmentation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -535,19 +550,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.031-Approximate_contours" />
-      <item index="1" class="java.lang.String" itemvalue="Python.031-finding_convex_hull" />
-      <item index="2" class="java.lang.String" itemvalue="Python.032-matching_contour_shape" />
-      <item index="3" class="java.lang.String" itemvalue="Python.identifying_shapes" />
-      <item index="4" class="java.lang.String" itemvalue="Python.034-line_detection" />
+      <item index="0" class="java.lang.String" itemvalue="Python.031-finding_convex_hull" />
+      <item index="1" class="java.lang.String" itemvalue="Python.032-matching_contour_shape" />
+      <item index="2" class="java.lang.String" itemvalue="Python.identifying_shapes" />
+      <item index="3" class="java.lang.String" itemvalue="Python.034-line_detection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.034-probablistic_hough_lines" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.034-line_detection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.identifying_shapes" />
-        <item index="2" class="java.lang.String" itemvalue="Python.032-matching_contour_shape" />
-        <item index="3" class="java.lang.String" itemvalue="Python.031-finding_convex_hull" />
-        <item index="4" class="java.lang.String" itemvalue="Python.031-Approximate_contours" />
+        <item index="0" class="java.lang.String" itemvalue="Python.034-probablistic_hough_lines" />
+        <item index="1" class="java.lang.String" itemvalue="Python.034-line_detection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.identifying_shapes" />
+        <item index="3" class="java.lang.String" itemvalue="Python.032-matching_contour_shape" />
+        <item index="4" class="java.lang.String" itemvalue="Python.031-finding_convex_hull" />
       </list>
     </recent_temporary>
   </component>
@@ -570,11 +585,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33420366" sideWeight="0.28611112" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33420366" sideWeight="0.28958333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33420366" sideWeight="0.7138889" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33420366" sideWeight="0.7104167" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -896,12 +911,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../practice_sources/Lecture 4.6 - Line Detection using Hough Lines.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="360">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="e#157#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
