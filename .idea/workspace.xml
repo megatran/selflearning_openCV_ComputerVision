@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5cc1b3-cdf1-421f-ba23-6712732407f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00-projects/counting_circles_ellipse.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +38,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$017_scaling_resizing_interpolations.coverage" NAME="017-scaling-resizing-interpolations Coverage Results" MODIFIED="1482302297717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$023_sharpening.coverage" NAME="023-sharpening Coverage Results" MODIFIED="1482392327364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$032_matching_contour_shape.coverage" NAME="032-matching_contour_shape Coverage Results" MODIFIED="1482905474831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$counting_circles_ellipse.coverage" NAME="counting_circles_ellipse Coverage Results" MODIFIED="1483000193867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00-projects" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$010_grayscale.coverage" NAME="010_grayscale Coverage Results" MODIFIED="1482222703008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$020_bitwise_operation_and_masking.coverage" NAME="020-bitwise-operation-and-masking Coverage Results" MODIFIED="1482370619853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_threstholding_binarization.coverage" NAME="024-threstholding_binarization Coverage Results" MODIFIED="1482439776084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
@@ -65,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="035-blob_detection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="035-blob_detection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -80,8 +81,20 @@
       <file leaf-file-name="034-probablistic_hough_lines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="counting_circles_ellipse.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00-projects/counting_circles_ellipse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -105,6 +118,7 @@
       <find>des</find>
       <find>label_con</find>
       <find>closet</find>
+      <find>simple</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,9 +160,10 @@
         <option value="$PROJECT_DIR$/04-Image-segmentation/031-finding_convex_hull.py" />
         <option value="$PROJECT_DIR$/04-Image-segmentation/032-matching_contour_shape.py" />
         <option value="$PROJECT_DIR$/00-projects/identifying_shapes.py" />
-        <option value="$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py" />
         <option value="$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py" />
         <option value="$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py" />
+        <option value="$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py" />
+        <option value="$PROJECT_DIR$/00-projects/counting_circles_ellipse.py" />
       </list>
     </option>
   </component>
@@ -257,25 +272,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.035-blob_detection">
-    <configuration default="false" name="032-matching_contour_shape" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04-Image-segmentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Image-segmentation/032-matching_contour_shape.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.counting_circles_ellipse">
     <configuration default="false" name="identifying_shapes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,6 +341,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="counting_circles_ellipse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00-projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-projects/counting_circles_ellipse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -563,19 +578,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.032-matching_contour_shape" />
-      <item index="1" class="java.lang.String" itemvalue="Python.identifying_shapes" />
-      <item index="2" class="java.lang.String" itemvalue="Python.034-line_detection" />
-      <item index="3" class="java.lang.String" itemvalue="Python.034-probablistic_hough_lines" />
-      <item index="4" class="java.lang.String" itemvalue="Python.035-blob_detection" />
+      <item index="0" class="java.lang.String" itemvalue="Python.identifying_shapes" />
+      <item index="1" class="java.lang.String" itemvalue="Python.034-line_detection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.034-probablistic_hough_lines" />
+      <item index="3" class="java.lang.String" itemvalue="Python.035-blob_detection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.counting_circles_ellipse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.035-blob_detection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.034-line_detection" />
-        <item index="2" class="java.lang.String" itemvalue="Python.034-probablistic_hough_lines" />
-        <item index="3" class="java.lang.String" itemvalue="Python.identifying_shapes" />
-        <item index="4" class="java.lang.String" itemvalue="Python.032-matching_contour_shape" />
+        <item index="0" class="java.lang.String" itemvalue="Python.counting_circles_ellipse" />
+        <item index="1" class="java.lang.String" itemvalue="Python.035-blob_detection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.034-line_detection" />
+        <item index="3" class="java.lang.String" itemvalue="Python.034-probablistic_hough_lines" />
+        <item index="4" class="java.lang.String" itemvalue="Python.identifying_shapes" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +617,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.70694447" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.70694447" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -925,20 +940,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py">
+    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py">
+    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.3/python_stubs/-1054661639/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="3265" column="0" lean-forward="true" selection-start-line="3265" selection-start-column="0" selection-end-line="3265" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00-projects/counting_circles_ellipse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
