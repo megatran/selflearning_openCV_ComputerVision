@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5cc1b3-cdf1-421f-ba23-6712732407f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py" afterPath="$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,6 +47,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_threstholding_binarization.coverage" NAME="024-threstholding_binarization Coverage Results" MODIFIED="1482439776084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$finding_waldo.coverage" NAME="finding_waldo Coverage Results" MODIFIED="1483161332883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00-projects" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$026_edge_detection_image_gradients.coverage" NAME="026-edge_detection_image_gradients Coverage Results" MODIFIED="1482643281072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$043_histogram_of_oriented_gradients_HOGs.coverage" NAME="043_histogram_of_oriented_gradients_HOGs Coverage Results" MODIFIED="1483339824604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-object_detection" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$034_line_detection.coverage" NAME="034-line_detection Coverage Results" MODIFIED="1482910352594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$first_test.coverage" NAME="first_test Coverage Results" MODIFIED="1482300725093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_adaptive_thresholding.coverage" NAME="024-adaptive_thresholding Coverage Results" MODIFIED="1482564089251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
@@ -86,8 +86,8 @@
       <file leaf-file-name="finding_waldo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00-projects/finding_waldo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="110" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -110,9 +110,20 @@
       <file leaf-file-name="043_histogram_of_oriented_gradients_HOGs.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lecture 5.7 Histogram of Oriented Gradients.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../practice_sources/Lecture 5.7 Histogram of Oriented Gradients.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
             </state>
           </provider>
         </entry>
@@ -344,7 +355,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.live_sketch_using_webcam">
+  <component name="RunManager" selected="Python.043_histogram_of_oriented_gradients_HOGs">
     <configuration default="false" name="finding_waldo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,24 +370,6 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-projects/finding_waldo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="041-feature_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-object_detection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-object_detection/041-FAST_feature_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -431,6 +424,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-projects/live_sketch_using_webcam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="043_histogram_of_oriented_gradients_HOGs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-object_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -651,18 +662,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.finding_waldo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.041-feature_detection" />
-      <item index="2" class="java.lang.String" itemvalue="Python.041_BRIEF_feature_detection" />
-      <item index="3" class="java.lang.String" itemvalue="Python.041-ORB_feature_detection" />
-      <item index="4" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
+      <item index="1" class="java.lang.String" itemvalue="Python.041_BRIEF_feature_detection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.041-ORB_feature_detection" />
+      <item index="3" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
+      <item index="4" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
-        <item index="1" class="java.lang.String" itemvalue="Python.finding_waldo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.041-ORB_feature_detection" />
-        <item index="3" class="java.lang.String" itemvalue="Python.041_BRIEF_feature_detection" />
-        <item index="4" class="java.lang.String" itemvalue="Python.041-feature_detection" />
+        <item index="0" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
+        <item index="1" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
+        <item index="2" class="java.lang.String" itemvalue="Python.finding_waldo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.041-ORB_feature_detection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.041_BRIEF_feature_detection" />
       </list>
     </recent_temporary>
   </component>
@@ -716,16 +727,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#157#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-probablistic_hough_lines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1070,13 +1071,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00-projects/finding_waldo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/../practice_sources/Lecture 5.7 Histogram of Oriented Gradients.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
         </state>
       </provider>
     </entry>
@@ -1090,11 +1088,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/00-projects/finding_waldo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
