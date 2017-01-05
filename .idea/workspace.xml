@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5cc1b3-cdf1-421f-ba23-6712732407f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/06_face_ppl__car_detection/045_face_eye_detection.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,6 +21,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$027_affine_transform.coverage" NAME="027_affine_transform Coverage Results" MODIFIED="1482644509468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$022_image_denoising.coverage" NAME="022-image_denoising Coverage Results" MODIFIED="1482391922028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$041_BRIEF_feature_detection.coverage" NAME="041_BRIEF_feature_detection Coverage Results" MODIFIED="1483090733275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-object_detection" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$045_eye_face_detection.coverage" NAME="045_eye_face_detection Coverage Results" MODIFIED="1483601435211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_face_ppl__car_detection" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$027_getting_perspective_transform.coverage" NAME="027-getting_perspective_transform Coverage Results" MODIFIED="1482644141016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$031_finding_convex_hull.coverage" NAME="031-finding_convex_hull Coverage Results" MODIFIED="1482816792179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$030_sorting_contour_left_right.coverage" NAME="030-sorting_contour_left_right Coverage Results" MODIFIED="1482801945855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
@@ -61,18 +62,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="034-line_detection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/04-Image-segmentation/034-line_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#157#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="035-blob_detection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04-Image-segmentation/035-blob_detection.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +110,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="045_face_detection.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="045_face_detection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="045_eye_face_detection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -247,6 +248,8 @@
         <option value="$PROJECT_DIR$/05-object_detection/041-ORB_feature_detection.py" />
         <option value="$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py" />
         <option value="$PROJECT_DIR$/06_face_ppl__car_detection/045_face_eye_detection.py" />
+        <option value="$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detectino.py" />
+        <option value="$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py" />
       </list>
     </option>
   </component>
@@ -384,7 +387,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.045_face_eye_detection">
+  <component name="RunManager" selected="Python.045_eye_face_detection">
     <configuration default="false" name="finding_waldo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,24 +402,6 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-projects/finding_waldo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="041-ORB_feature_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05-object_detection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-object_detection/041-ORB_feature_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -471,6 +456,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="045_eye_face_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_face_ppl__car_detection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -691,18 +694,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.finding_waldo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.041-ORB_feature_detection" />
-      <item index="2" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
-      <item index="3" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
-      <item index="4" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
+      <item index="2" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.045_eye_face_detection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
-        <item index="2" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
-        <item index="3" class="java.lang.String" itemvalue="Python.finding_waldo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.041-ORB_feature_detection" />
+        <item index="0" class="java.lang.String" itemvalue="Python.045_eye_face_detection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
+        <item index="3" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
+        <item index="4" class="java.lang.String" itemvalue="Python.finding_waldo" />
       </list>
     </recent_temporary>
   </component>
@@ -756,20 +759,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/029-segmentation_contour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-Image-segmentation/030-sorting_contours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-Image-segmentation/030-sorting_contour_left_right.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1020,7 +1009,7 @@
         <state relative-caret-position="495">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#157#167#0" expanded="true" />
+            <element signature="e#157#167#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1131,10 +1120,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/haarcascade_eye.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
