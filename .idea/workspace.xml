@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5cc1b3-cdf1-421f-ba23-6712732407f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00-projects/pedestrian_car_detection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00-projects/pedestrian_detection.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/00-projects/pedestrian_car_detection.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +22,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$027_affine_transform.coverage" NAME="027_affine_transform Coverage Results" MODIFIED="1482644509468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$022_image_denoising.coverage" NAME="022-image_denoising Coverage Results" MODIFIED="1482391922028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$041_BRIEF_feature_detection.coverage" NAME="041_BRIEF_feature_detection Coverage Results" MODIFIED="1483090733275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-object_detection" />
-    <SUITE FILE_PATH="coverage/self_learning_openCV$045_livestream_eye_detection.coverage" NAME="045-livestream_eye_detection Coverage Results" MODIFIED="1483602854860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_face_ppl__car_detection" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$045_livestream_eye_detection.coverage" NAME="045-livestream_eye_detection Coverage Results" MODIFIED="1483865638105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_face_ppl__car_detection" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$045_eye_face_detection.coverage" NAME="045_eye_face_detection Coverage Results" MODIFIED="1483601435211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_face_ppl__car_detection" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$027_getting_perspective_transform.coverage" NAME="027-getting_perspective_transform Coverage Results" MODIFIED="1482644141016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$031_finding_convex_hull.coverage" NAME="031-finding_convex_hull Coverage Results" MODIFIED="1482816792179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
@@ -53,6 +54,7 @@
     <SUITE FILE_PATH="coverage/self_learning_openCV$043_histogram_of_oriented_gradients_HOGs.coverage" NAME="043_histogram_of_oriented_gradients_HOGs Coverage Results" MODIFIED="1483339824604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-object_detection" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$045_face_eye_detection.coverage" NAME="045_face_eye_detection Coverage Results" MODIFIED="1483600043970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_face_ppl__car_detection" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$034_line_detection.coverage" NAME="034-line_detection Coverage Results" MODIFIED="1482910352594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
+    <SUITE FILE_PATH="coverage/self_learning_openCV$pedestrian_car_detection.coverage" NAME="pedestrian_car_detection Coverage Results" MODIFIED="1483865861586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00-projects" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$first_test.coverage" NAME="first_test Coverage Results" MODIFIED="1482300725093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-basic-openCV-and-computerVision" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$024_adaptive_thresholding.coverage" NAME="024-adaptive_thresholding Coverage Results" MODIFIED="1482564089251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-image-manipulation" />
     <SUITE FILE_PATH="coverage/self_learning_openCV$034_probablistic_hough_lines.coverage" NAME="034-probablistic_hough_lines Coverage Results" MODIFIED="1482910185809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Image-segmentation" />
@@ -90,8 +92,8 @@
       <file leaf-file-name="043_histogram_of_oriented_gradients_HOGs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -99,36 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="045_face_detection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py">
+      <file leaf-file-name="pedestrian_detection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00-projects/pedestrian_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="045_eye_face_detection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pedestrian_car_detection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/00-projects/pedestrian_car_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -226,8 +206,8 @@
         <option value="$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detectino.py" />
         <option value="$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py" />
         <option value="$PROJECT_DIR$/../practice_sources/Lecture 5.7 Histogram of Oriented Gradients.ipynb" />
-        <option value="$PROJECT_DIR$/../practice_sources/Lecture 6.2 - Face &amp; Eye Detection.ipynb" />
         <option value="$PROJECT_DIR$/06_face_ppl__car_detection/045-livestream_eye_detection.py" />
+        <option value="$PROJECT_DIR$/../practice_sources/Lecture 6.2 - Face &amp; Eye Detection.ipynb" />
         <option value="$PROJECT_DIR$/00-projects/pedestrian_car_detection.py" />
       </list>
     </option>
@@ -365,25 +345,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.045-livestream_eye_detection">
-    <configuration default="false" name="live_sketch_using_webcam" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00-projects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="self_learning_openCV" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-projects/live_sketch_using_webcam.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06_face_ppl__car_detection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.pedestrian_car_detection">
     <configuration default="false" name="043_histogram_of_oriented_gradients_HOGs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -452,6 +419,24 @@
       <module name="self_learning_openCV" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_face_ppl__car_detection/045-livestream_eye_detection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pedestrian_car_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00-projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="self_learning_openCV" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00-projects/pedestrian_detection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -671,19 +656,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
-      <item index="1" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
-      <item index="2" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
-      <item index="3" class="java.lang.String" itemvalue="Python.045_eye_face_detection" />
-      <item index="4" class="java.lang.String" itemvalue="Python.045-livestream_eye_detection" />
+      <item index="0" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
+      <item index="1" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.045_eye_face_detection" />
+      <item index="3" class="java.lang.String" itemvalue="Python.045-livestream_eye_detection" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pedestrian_car_detection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.045-livestream_eye_detection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.045_eye_face_detection" />
-        <item index="2" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
-        <item index="3" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
-        <item index="4" class="java.lang.String" itemvalue="Python.live_sketch_using_webcam" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pedestrian_car_detection" />
+        <item index="1" class="java.lang.String" itemvalue="Python.045-livestream_eye_detection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.045_eye_face_detection" />
+        <item index="3" class="java.lang.String" itemvalue="Python.045_face_eye_detection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.043_histogram_of_oriented_gradients_HOGs" />
       </list>
     </recent_temporary>
   </component>
@@ -706,22 +691,22 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33246753" sideWeight="0.29652777" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33246753" sideWeight="0.3" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33246753" sideWeight="0.7" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.7034722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -965,6 +950,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="3265" column="0" lean-forward="true" selection-start-line="3265" selection-start-column="0" selection-end-line="3265" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,41 +1026,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/haarcascade_eye.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,6 +1048,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_face_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045_eye_face_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="119" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../practice_sources/Lecture 6.2 - Face &amp; Eye Detection.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1099,21 +1075,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045-livestream_eye_detection.py">
+    <entry file="file://$PROJECT_DIR$/05-object_detection/043_histogram_of_oriented_gradients_HOGs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00-projects/pedestrian_car_detection.py">
+    <entry file="file://$PROJECT_DIR$/06_face_ppl__car_detection/045-livestream_eye_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="38" column="64" lean-forward="true" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00-projects/pedestrian_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
